@@ -64,3 +64,22 @@ python main.py -s path/to/point_cloud.pcd -l path/to/labels.json -i path/to/imag
 ### Customization
 
 You can modify camera parameters, height, and other settings in the main.py file. 
+
+## Results
+
+This section shows sample results from the rail analysis:
+
+![Centerline Errors Visualization](centerline_errors.png)
+
+### Error Measurements at Specific Distances:
+
+| Distance (m) | Total Error (m) | Lateral Error (m) | Vertical Error (m) | In Bounds |
+|--------------|-----------------|-------------------|-------------------|-----------|
+| 0            | 0.123           | 0.122             | 0.018             | Yes       |
+| 5            | 0.141           | 0.141             | 0.006             | Yes       |
+| 10           | 0.180           | 0.179             | 0.023             | Yes       |
+| 20           | 0.298           | 0.298             | 0.018             | Yes       |
+| 30           | 0.327           | 0.326             | 0.015             | Yes       |
+| 50           | 0.571           | 0.571             | 0.012             | Yes       |
+
+The table shows increasing error with distance from the camera, with the lateral component being the primary contributor to total error. 
