@@ -69,7 +69,7 @@ You can modify camera parameters, height, and other settings in the main.py file
 
 This section shows sample results from the rail analysis:
 
-![Centerline Errors Visualization](centerline_errors.png)
+![Centerline Errors Visualization](results/centerline_errors.png)
 
 ### Error Measurements at Specific Distances:
 
@@ -83,3 +83,7 @@ This section shows sample results from the rail analysis:
 | 50           | 0.571           | 0.571             | 0.012             | Yes       |
 
 The table shows increasing error with distance from the camera, with the lateral component being the primary contributor to total error. 
+
+![3D Scene Projection](results/3Dscene.png)
+Red and blue lines represent projected polylines from camera data, while orange and light blue lines show ground truth from annotaion.
+
