@@ -1,6 +1,6 @@
 # 3D Rail Detection
 
-A modular Python framework for analyzing rail annotations from camera and LiDAR data. This tool projects 2D rail annotations into 3D space, aligns them with LiDAR data, and calculates metrics for rail centerline accuracy.
+A modular Python framework for detecting rails tracks in 3D Space from camera sensor. This tool projects 2D rail annotations into 3D space, aligns them with LiDAR data, and calculates metrics for rail centerline accuracy.
 
 ## Features
 
